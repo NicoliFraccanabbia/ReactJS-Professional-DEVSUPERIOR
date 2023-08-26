@@ -1,3 +1,5 @@
+@import url(styles.css);
+
 .category-container {
     display: flex;
 }
@@ -5,9 +7,9 @@
 .category {
     border-radius: 4px;
     margin-right: 20px;
-    background: #636363;
+    background: var(--dsc-color-bg-tertiary);
     height: 30px;
-    color: #FFF;
+    color: var(--dsc-color-font-tertiary);
     font-size: 12px;
     font-weight: 700;
     display: flex;
@@ -25,18 +27,18 @@
 }
 
 .product-details-bottom h3{
-    color: #0CAF1D;
+    color: var(--dsc-color-font-secondary);
     font-size: 20px;
 }
 
 .product-details-bottom h4 {
-    color: #636363;
+    color: var(--dsc-color-font-primary);
     font-size: 12px;
 }
 
 .product-details-bottom p{
     margin: 10px 0;
-    color: #636363;
+    color: var(--dsc-color-font-primary);
     font-size: 12px;
 }
 
