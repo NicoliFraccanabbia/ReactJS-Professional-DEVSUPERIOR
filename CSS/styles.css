@@ -56,6 +56,12 @@ main {
 .dsc-mt20 {
   margin-top: 20px;
 }
+
+
+.dsc-txt-left {
+  text-align: left;
+}
+
 /* ---------------------------------------------*/
 /* header styles */
 header {
@@ -276,4 +282,32 @@ nav a {
   .dsc-form h2 {
     font-size: 24px;
   }
+}
+
+/* ---------------------------------------------*/
+/* table styles */
+
+.dsc-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.dsc-table thead {
+  height: 55px;
+  font-size: 14px;
+  background-color: var(--dsc-color-card-bg);
+  color:var(--dsc-color-font-primary);
+}
+
+.dsc-table tbody {
+  text-align: center;
+  background-color: var(--dsc-color-card-bg);
+  color:var(--dsc-color-font-primary);
+  font-size: 12px;
+}
+
+.dsc-table tbody tr {
+  height: 70px;
+  border-top: 1px solid var(--dsc-color-card-border);
 }
