@@ -5,6 +5,7 @@
 }
 
 .dsc-product-listing-img {
+    display: block;
     width: 69px;
     height: 69px;
 }
@@ -13,5 +14,5 @@
     height: 20px;
     width: auto;
     cursor: pointer;
-    margin: 10px;
+    margin: 5px;
 }
