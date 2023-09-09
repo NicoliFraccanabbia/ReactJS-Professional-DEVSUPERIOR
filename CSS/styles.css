@@ -79,8 +79,26 @@ nav {
   align-items: center;
 }
 
+.dsc-navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.dsc-menu-items-container {
+  display: flex;
+}
+
+.dsc-menu-item img {
+  width: 20px;
+  right: 20px;
+}
+
+.dsc-menu-item {
+  margin-right: 20px;
+}
+
 nav h1 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -107,6 +125,12 @@ nav a {
 @media (min-width: 576px) {
   .dsc-section-title {
     text-align: left;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 576px) {
+  nav h1 {
     font-size: 24px;
   }
 }
