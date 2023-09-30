@@ -25,7 +25,6 @@ export default function Catalog() {
                 <Card />
                 <Card />
                 <Card />
-
             </div>
 
         </section>
